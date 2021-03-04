@@ -1,0 +1,137 @@
+header {
+    background-color: #ffffff;
+    background-image: url(images/double-bubble-dark.png);
+    margin-bottom: 40px;
+  }    
+
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-family: 'Courier New', Arial, sans-serif;
+  }
+  
+  header nav ul li a:hover {
+    color: #b62c2c;
+  }
+  .group a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+  }
+
+  body {
+    
+    font-family: 'Courier New', sans-serif;
+    background-image: url(images/double-bubble-dark.png);
+    
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+  }
+
+  .contact{
+    color:white;
+    display: flex;
+    justify-content: center;
+    
+  }
+  label,button{
+    padding:5px;
+    justify-content: center;
+  }
+
+  .logo {
+    font-family: 'Courier New', sans-serif;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+  .location{
+    font-family: 'Courier New', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px 0 0 20px;
+  }
+   h1,h2,h3,p{
+     display: flex;
+     flex-grow: 1;
+    font-family: 'Courier New', sans-serif;
+     color:white;
+   }
+
+   .right{
+     text-align: left;
+   }
+   .contact .group{
+     margin-bottom: 15%;
+   }
+   .group{
+     margin:15px;
+     flex-direction: column;
+     text-align: center;
+   }
+   .group span{
+    background-color: black;
+    max-width: 50%;
+  }
+   h3,h2,p{
+     display: flex;
+     justify-content: center;
+    
+   }
+   p span{
+     text-align: left;
+   }
+   
+   h2{
+    text-decoration: underline
+   }
+ img{
+     max-width:90%;
+     height: auto;
+   }
+   .group img{
+    max-width:60%;
+    height: auto;
+  }
+  
+
+  @media all and (min-width: 700px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .logo {
+        color:white;
+        margin: 14px 14px 10px;
+        padding-top: 0;
+        font-size: 200%;
+    }
+
+    .contact{
+      color:white;
+      display: flex;
+      justify-content: center;
+    }
+  
+  
+}
